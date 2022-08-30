@@ -37,7 +37,7 @@ async def add_task(message):
             file_name = filepath.rsplit('/', 1)
             try: #MSG EDIT AND EDIT
                 await msg.edit(f'**Encoding Completed')   
-                file =  await msg.reply_document(output, caption=f"**{check_resolution}**", file_name=)  
+                file =  await msg.reply_document(output, caption=f"*{check_resolution}*", file_name="By @Anime_Uploadz")  
             except Exception as e: 
                 LOG.info(f'Error while file sending\n'+e)  
             try:
